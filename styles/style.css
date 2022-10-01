@@ -38,8 +38,8 @@ h1 {
     object-fit: cover;
 }
 
-.card__img--mobile {
-    aspect-ratio: 1.5 / 1;
+.card__img--mobile img {
+    height: 100%;
 }
 
 .card__img--desktop {
