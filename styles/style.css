@@ -96,7 +96,7 @@ h1 {
     width: 100%;
 }
 
-.btn:hover {
+.btn:hover, .btn:focus {
     background-color:hsl(158, 31%, 25%);;
 }
 
