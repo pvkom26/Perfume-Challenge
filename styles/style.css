@@ -15,10 +15,6 @@ body {
     justify-content: center;
 }
 
-img {
-    object-fit: cover;
-}
-
 h1 {
     margin-top: 0;
 }
@@ -36,6 +32,18 @@ h1 {
     width: 90%;
     max-width: 35rem;
     overflow: hidden;
+}
+
+.card img {
+    object-fit: cover;
+}
+
+.card__img--mobile {
+    aspect-ratio: 1.5 / 1;
+}
+
+.card__img--desktop {
+    display: none;
 }
 
 .card__content {
@@ -56,9 +64,7 @@ h1 {
     margin-top: 1.7rem;
 }
 
-.card__img--desktop {
-    display: none;
-}
+
 
 .card__price {
     align-items: center;
