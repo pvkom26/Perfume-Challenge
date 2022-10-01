@@ -50,7 +50,7 @@ h1 {
 .card__heading {
     color: hsl(212, 21%, 14%);
     font-family: 'Fraunces', serif;
-    font-size: 3rem;
+    font-size: 3.3rem;
     font-weight: 700;
     line-height: 1;
     margin-top: 1.7rem;
@@ -85,13 +85,19 @@ h1 {
     border-radius: 10px;
     border: 0;
     color: #fff;
+    cursor: pointer;
     display: flex;
     font-family: 'Montserrat', sans-serif;
     gap: 1rem;
     justify-content: center;
     outline: 0;
     padding-block: 1.5rem;
+    transition: background-color 0.2s;
     width: 100%;
+}
+
+.btn:hover {
+    background-color:hsl(158, 31%, 25%);;
 }
 
 footer {
