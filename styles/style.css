@@ -10,7 +10,7 @@ html {
 body {
     background-color: hsl(30, 38%, 92%);
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     align-items: center;
     justify-content: center;
 }
@@ -29,10 +29,9 @@ h1 {
     font-size: 1.4rem;
     line-height: 1.6;
     margin: auto;
+    width: 90%;
     max-width: 35rem;
     overflow: hidden;
-    padding-block: 2rem;
-    width: 90%;
 }
 
 .card img {
@@ -40,8 +39,9 @@ h1 {
 }
 
 .card__img--mobile {
+    max-width: 100%;
+    display: block;
     aspect-ratio: 1.5 / 1;
-    max-height: 100%;
 }
 
 .card__img--desktop {
@@ -132,16 +132,13 @@ footer a {
         max-width: 600px;
     }
 
-    .card__img {
-        width: 50%;
-    }
-
     .card__content {
         width: 50%;
     }
 
     .card__img--desktop {
         display: block;
+        max-width: 100%;
     }
 
     .card__img--mobile {
